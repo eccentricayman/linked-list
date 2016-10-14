@@ -48,5 +48,8 @@ int main() {
 
     //SEGFAULT EVERY SINGLE DAMN TIME
     //print_list(linkedlist);
+
+    free(linkedlist);
+    
     return 0;
 }
